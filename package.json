@@ -1,0 +1,22 @@
+{
+  "name": "guessing-game-of-number",
+  "version": "1.0.0",
+  "description": "Guess The Number\" is an exhilarating and interactive game that challenges players to test their intuition and numerical skills.  they attempt to guess a secret number within a predefined range. With each guess, players receive valuable feedback, narrowing down the possibilities and intensifying the thrill of the chase.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diba Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
